@@ -1,0 +1,62 @@
+{
+  "name": "project-base-gulp4",
+  "version": "1.0.0",
+  "main": "dist/assets/js/script.min.js",
+  "scripts": {
+    "linter": "standard",
+    "linter:fix": "standard --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.6.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babelify": "^8.0.0",
+    "browser-sync": "^2.26.12",
+    "browser-sync-reuse-tab": "^1.0.3",
+    "browserify": "^16.2.3",
+    "cssnano": "^5.0.8",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "factor-bundle": "^2.5.0",
+    "glob": "^7.1.6",
+    "gulp": "^4.0.2",
+    "gulp-header": "^2.0.9",
+    "gulp-livereload": "^4.0.1",
+    "gulp-mocha": "^8.0.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^5.0.0",
+    "gulp-sass-variables": "^1.2.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "gulp-uglify-es": "^2.0.0",
+    "merge-stream": "^2.0.0",
+    "node-sass": "^6.0.1",
+    "standard": "^16.0.3",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0",
+    "yargs": "^16.2.0"
+  },
+  "resolutions": {
+    "graceful-fs": "^4.2.4"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "description": "",
+  "dependencies": {
+    "@glidejs/glide": "^3.4.1",
+    "bootstrap": "^4.5.3",
+    "graceful-fs": "^4.2.2",
+    "gulp-cli": "^2.3.0",
+    "imask": "^6.0.5",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}

@@ -1,0 +1,161 @@
+
+
+@media screen and (max-width: map-get($grid-breakpoints,lg)) {
+    #paragraph{
+        p{
+            font-size: 18px!important;
+        }
+    }
+    .informations-main{
+        margin-top: 0;
+    }
+    .arch-info{
+        padding: 150px 30px 0px 30px!important;
+        h1{
+            font-size: 30px!important;
+        }
+        p{
+            font-size: 14px!important;
+        }
+    }
+    .arch-main{
+        max-height: 500px;
+        .glide__track{
+            max-height: 500px;
+            .img{
+                max-height: 500px;
+                max-width: 600px;
+            }
+        }
+    }
+    #main-slider{
+        padding: 50px 0;
+        .glide__slide{
+            &::after{
+                box-shadow: inset 15vh -150px 300px $black!important;
+            }
+        }
+        .bullets-main{
+            left: 112px!important;
+            .glide__bullets{
+                margin-top: 76px!important;
+            }
+        }
+        .glide__track{
+            max-height: 500px;
+            li{
+                max-height: 500px;
+            }
+            .main-slider-right{
+                img{
+                    margin-bottom: 20px;
+                    max-width: 400px;
+                }
+            }
+            .main-slider-left{
+                margin-left: 50px!important;
+                #slider-logo{
+                    img{
+                        width: 150px;
+                        position: relative;
+                        left: -30px;
+                        margin: 10px 0;
+                    }
+                }
+                h1{
+                    font-size: 30px!important;
+                }
+                p{
+                    font-size: 20px!important;
+                }
+                .contact-button{
+                    left: -68px!important;
+                }
+            }
+        }
+    }
+    
+}
+@media screen and (max-width: map-get($grid-breakpoints,md) ) {
+    .arch-info{
+        padding: 150px 30px 0px 30px!important;
+        h1{
+            font-size: 30px!important;
+        }
+        p{
+            font-size: 8px!important;
+        }
+    }
+    #paragraph{
+        p{
+            font-size: 12px!important;
+            width: 65%!important;
+        }
+    }
+    #main-slider{
+        padding: 120px 0;
+        .glide__slide{
+            &::after{
+                box-shadow: inset 15vh -150px 300px $black!important;
+            }
+        }
+        .bullets-main{
+            left: 112px!important;
+            .glide__bullets{
+                margin-top: 76px!important;
+                max-width: 200px;
+            }
+        }
+        .glide__track{
+            max-height: 400px;
+            li{
+                max-height: 400px;
+            }
+            .main-slider-right{
+                img{
+                    margin-bottom: 25px;
+                    max-width: 250px;
+                }
+            }
+            .main-slider-left{
+                margin-left: 50px!important;
+                #slider-logo{
+                    img{
+                        width: 150px;
+                        position: relative;
+                        left: -30px;
+                        margin: 10px 0;
+                    }
+                }
+                h1{
+                    font-size: 30px!important;
+                }
+                p{
+                    font-size: 15px!important;
+                    text-align: left;
+                }
+                .contact-button{
+                    left: -90px!important;
+                    padding: 10px 30px!important;
+                    font-size: 12px;
+                }
+                .links{
+                    a{
+                        img{
+                            width: 25px!important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    nav{
+        a,p{
+            font-size: 10px;
+            text-align: center;
+        }
+    }
+    
+}
+
+

@@ -1,0 +1,86 @@
+@import './glide-variables';
+
+.#{$glide-class} {
+  $this: &;
+
+  $se: $glide-element-separator;
+  $sm: $glide-modifier-separator;
+
+  &#{$se}arrow {
+    display: block;
+    z-index: 2;
+    color: white;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    text-shadow: none;
+    opacity: 1;
+    cursor: pointer;
+    transition: opacity 150ms ease, border 300ms ease-in-out;
+    // transform: translateY(-50%);
+    line-height: 1;
+
+    &:focus { outline: none; }
+    &:hover { border-color: white; }
+
+    &#{$sm}left {
+      left: 2em;
+    }
+
+    &#{$sm}right {
+      right: 2em;
+    }
+
+    &#{$sm}disabled {
+      opacity: 0.33;
+    }
+  }
+
+  &#{$se}bullets {
+    list-style: none;
+  }
+
+  &#{$se}bullet {
+    width: 6px;
+    height: 6px;
+    padding: 0;
+    margin: 0 3px;
+    display: block;
+    border-radius: 3px;
+    background: #7f7f7f;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    transition: all .3s linear;
+
+    &:focus,
+    &:active {
+      box-shadow: none;
+      border: none;
+      outline: none;
+    }
+
+    &:hover,
+    &:focus {
+      
+    }
+
+    &#{$sm}active {
+      background-color: $black;
+    }
+  }
+
+  &#{$sm}swipeable {
+    cursor: grab;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+  }
+
+  &#{$sm}dragging {
+    cursor: grabbing;
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
+  }
+}

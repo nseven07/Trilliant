@@ -1,0 +1,16 @@
+export default {
+  dist: './dist/',
+  src: './src/',
+  sourceSass: './src/sass/**/**/*.scss',
+  sourceJs: './src/js/**/**/!(_*).js',
+  privateJs: './src/js/**/**/*.js',
+  test: './test/**/*.test.js',
+  prodCss: './dist/assets/css/prod/',
+  prodJs: './dist/assets/js/prod/',
+  sourceImg: './src/img/**/*',
+  prodImg: 'https://via.placeholder.com/',
+  css: './dist/assets/css/dev/',
+  js: './dist/assets/js/dev/',
+  image: './dist/assets/img/',
+  html: './dist/*.html',
+};

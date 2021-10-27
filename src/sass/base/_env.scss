@@ -1,0 +1,6 @@
+$env: 'development' !default;
+$imagePath: '/assets/img' !default;
+
+@if( $env == 'production' ) {
+  $imagePath: 'https://via.placeholder.com/';
+}
